@@ -65,7 +65,7 @@ public class Apply {
     @Column(nullable = false)
     private LocalDateTime uptadeAt = LocalDateTime.now();
 
-    
+
     public String getId() {
         return id;
     }
